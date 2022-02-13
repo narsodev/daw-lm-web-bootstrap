@@ -1,0 +1,27 @@
+.bg-primary {
+  background-color: crimson !important;
+}
+
+.text-primary {
+  color: crimson !important;
+}
+
+.border-primary {
+  border-color: crimson !important;
+}
+
+.navbar-brand {
+  margin-right: 1.5rem;
+}
+
+.navbar-brand img {
+  width: 3.5rem;
+}
+
+#carousel {
+  height: 25rem;
+}
+
+.obj-fit-cover {
+  object-fit: cover;
+}
