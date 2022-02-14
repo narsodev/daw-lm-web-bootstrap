@@ -57,14 +57,16 @@
       </div>
       <div class="carousel-inner h-100">
         <picture class="carousel-item active h-100">
-          <img src="images/grailify-TVmAF0gh2qs-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="Nike Air Force Rojas" />
+          <img src="images/grailify-TVmAF0gh2qs-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover"
+            alt="Nike Air Force Rojas" />
         </picture>
         <picture class="carousel-item h-100">
           <img src="images/olesya-tsinskaya-KujAwLSC0sk-unsplash.jpg" class="d-block w-100 h-100"
             alt="Joven con skate" />
         </picture>
         <picture class="carousel-item h-100">
-          <img src="images/piotr-szajewski-FMiUpNn7w9o-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="Graffiti" />
+          <img src="images/piotr-szajewski-FMiUpNn7w9o-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover"
+            alt="Graffiti" />
         </picture>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -84,13 +86,17 @@
       </p>
     </div>
   </header>
-  <main class="px-5 bg-light">
-    <section id="sneakers" class="py-4">
-      <h2 class="text-primary ">
+
+  <!-- Contenido principal -->
+  <main class="bg-light">
+
+    <!-- Sección Sneakers -->
+    <section id="sneakers" class="px-md-4 px-lg-5 py-4">
+      <h2 class="text-primary mx-3 mx-md-0">
         <span class="border-bottom border-dark border-2">Sneakers</span><span class="badge bg-dark mx-3">Nuevo!</span>
       </h2>
       <div class="container my-3">
-        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
           <div class="col py-2">
             <div class="card">
               <img class="card-img-top" src="images/derrick-payton-0ZEz23Du8fA-unsplash.jpg" alt="Nike Air Force 1" />
@@ -123,7 +129,8 @@
           </div>
           <div class="col py-2">
             <div class="card">
-              <img class="card-img-top" src="images/nathan-jongerius-dbiZRVk_RQk-unsplash.jpg" alt="Nike Air Force 1 Rainbow" />
+              <img class="card-img-top" src="images/nathan-jongerius-dbiZRVk_RQk-unsplash.jpg"
+                alt="Nike Air Force 1 Rainbow" />
               <div class="card-body">
                 <h5 class="card-title">
                   Nike Air Force 1 Rainbow
@@ -153,7 +160,8 @@
           </div>
           <div class="col py-2">
             <div class="card">
-              <img class="card-img-top" src="images/whereslugo-ad047kyPBh8-unsplash.jpg" alt="Nike Air Force 1 Classic, High" />
+              <img class="card-img-top" src="images/whereslugo-ad047kyPBh8-unsplash.jpg"
+                alt="Nike Air Force 1 Classic, High" />
               <div class="card-body">
                 <h5 class="card-title">
                   Nike Air Force 1 Classic, High
@@ -168,7 +176,8 @@
           </div>
           <div class="col py-2">
             <div class="card">
-              <img class="card-img-top" src="images/fachry-zella-devandra-G_qgKCE9fE0-unsplash.jpg" alt="Nike Air Max High" />
+              <img class="card-img-top" src="images/fachry-zella-devandra-G_qgKCE9fE0-unsplash.jpg"
+                alt="Nike Air Max High" />
               <div class="card-body">
                 <h5 class="card-title">
                   Nike Air Max High
@@ -184,6 +193,30 @@
         </div>
       </div>
     </section>
+    <!-- Fin de la Sección Sneakers -->
+
+    <!-- Sección Marcas -->
+    <section id="marcas" class="px-md-4 px-lg-5 py-4 bg-dark clearfix">
+      <h2 class="text-primary mx-3 mx-md-0">
+        <span class="border-bottom border-light border-2">Marcas</span>
+      </h2>
+      <div class="row row-cols-1 row-cols-md-2 my-1 mx-3 mx-md-0">
+        <div class="col py-2">
+          <p class="text-light">Nike es una marca icónica en el mundo del calzado y el deporte, cuyas colecciones de zapatillas son innumerables y están reconocidas por expertos y clientes. Cada una de ellas se distingue por los más altos estándares de calidad, tecnología avanzada y homologías de producción. Por ejemplo, la Nike Tanjun es una zapatilla dirigida al público femenino, con un diseño minimalista en blanco y negro que proporciona comodidad en el interior y una amplia tracción al pisar. Por otro lado, las Nike MD Runner 2 son una buena opción para los hombres que quieren una zapatilla casual pero atlética, con un acabado bien ejecutado y un interior cómodo para el día a día.
+          </p>
+          <!-- Botón para abrir Modal -->
+          <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary" data-bs-toggle="modal"
+            data-bs-target="#modal">
+            Historia de Nike
+          </button>
+        </div>
+        <div class="col py-2">
+          <img src="images/wu-yi-zY3zIOdKXL4-unsplash.jpg" class="rounded w-100" alt="Logo de Nike">
+        </div>
+      </div>
+    </section>
+    <!-- Fin de la Sección Marcas -->
+
     <!------ Toast (común para todas las zapatillas) ----->
     <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
       <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -194,11 +227,57 @@
           <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
         <div class="toast-body">
-          Zapatilla añadida al carrito.
+          Zapatillas añadida al carrito.
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de Nike -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabel">Historia de Nike</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              La marca Nike se fundó el 25 de enero de 1964. La empresa tiene ahora más de 50 años. Y parece increíble:
+              su mentalidad es tan innovadora, tan vanguardista y tan joven que parece haber sido creada en Silicon
+              Valley hace menos de cinco años.
+            </p>
+            <p>
+              ¿Cuál es el secreto de la juventud de esta empresa? Sin duda, su deseo radical de innovar. Cada año, Nike
+              introduce nuevas tecnologías e ideas diseñadas para que sus clientes alcancen y superen los límites de sus
+              capacidades físicas.
+            </p>
+            <p>
+              "El tigre caza mejor cuando tiene hambre". Así es como Bill Bowerman, el entrenador de atletismo
+              estadounidense que fundó Nike, presentó las Onitsuka TG-24. Sí, antes de crear la empresa de ropa
+              deportiva más famosa del planeta, Bowerman trabajó para la empresa japonesa Onitsuka. Y para ellos creó un
+              modelo ávido de asfalto: el TG-24.
+            </p>
+            <p>
+              En agosto de 1966, Bowerman encargó 300 pares de su creación, "TG-24 / Shoe designed by Bill Bowerman w/
+              Mexico Line", para su distribución en Estados Unidos. A pesar del engorroso nombre, cumplía todos los
+              requisitos de los atletas y se convirtió en una de las zapatillas de correr más vendidas del año.
+            </p>
+            <p>
+              El 30 de mayo de 1971, Bowerman y Knight cambiaron el nombre de su empresa por el de Nike Inc, inspirado
+              en la diosa griega de la victoria. Decidieron introducir su propia línea de zapatillas para correr,
+              encabezada por el modelo "Nike Cortez". Esto supuso el inicio de una larga batalla legal con Onitsuka
+              Tiger sobre quién tenía los derechos del nombre "Cortez".
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary border-primary-dark bg-primary button-primary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
         </div>
       </div>
     </div>
   </main>
+  <!-- Fin del contenido principal -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
