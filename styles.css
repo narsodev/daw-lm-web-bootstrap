@@ -10,6 +10,10 @@
   border-color: crimson !important;
 }
 
+.border-primary-dark {
+  border-color: rgb(220 20 60 / 50%) !important;
+}
+
 .navbar-brand {
   margin-right: 1.5rem;
 }
@@ -18,10 +22,28 @@
   width: 3.5rem;
 }
 
+.button-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgb(220 20 60 / 50%) !important;
+}
+
+section {
+  scroll-margin-top: 4.5rem;
+}
+
 #carousel {
   height: 25rem;
 }
 
-.obj-fit-cover {
+.carousel-item img {
+  object-fit: cover;
+}
+
+#sneakers .col img {
+  height: 15rem !important;
+  object-fit: cover;
+}
+
+.toast img {
+  width: 1.5rem;
   object-fit: cover;
 }

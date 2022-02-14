@@ -13,10 +13,11 @@
 </head>
 
 <body>
+  <!-- Barra de Navegación fijada arriba y responsive -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light border-bottom border-primary">
     <div class="container-fluid">
       <a class="navbar-brand d-flex gap-2 align-items-center justify-content-center" href="#">
-        <img src="images/sneakers.png" alt="" class="mx-2" />
+        <img src="images/sneakers.png" alt="Imagen de la marca" class="mx-2" />
         <span class="fw-bold text-primary">Street Style</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,10 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#header">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#ropa">Ropa</a>
+            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#sneakers">Sneakers</a>
@@ -41,14 +39,14 @@
             <a class="nav-link active" href="#faq">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#about-us">Sobre nosotros</a>
+            <a class="nav-link active" href="#sobre-nosotros">Sobre nosotros</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header id="header">
+  <header id="hero">
     <div id="carousel" class="carousel carousel-fade slide w-100" data-bs-ride="carousel" data-bs-interval="3000"
       data-bs-pause="false">
       <div class="carousel-indicators">
@@ -59,14 +57,14 @@
       </div>
       <div class="carousel-inner h-100">
         <picture class="carousel-item active h-100">
-          <img src="images/grailify-TVmAF0gh2qs-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="" />
+          <img src="images/grailify-TVmAF0gh2qs-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="Nike Air Force Rojas" />
         </picture>
         <picture class="carousel-item h-100">
-          <img src="images/olesya-tsinskaya-KujAwLSC0sk-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover"
-            alt="" />
+          <img src="images/olesya-tsinskaya-KujAwLSC0sk-unsplash.jpg" class="d-block w-100 h-100"
+            alt="Joven con skate" />
         </picture>
         <picture class="carousel-item h-100">
-          <img src="images/piotr-szajewski-FMiUpNn7w9o-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="" />
+          <img src="images/piotr-szajewski-FMiUpNn7w9o-unsplash.jpg" class="d-block w-100 h-100 obj-fit-cover" alt="Graffiti" />
         </picture>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -86,9 +84,136 @@
       </p>
     </div>
   </header>
+  <main class="px-5 bg-light">
+    <section id="sneakers" class="py-4">
+      <h2 class="text-primary ">
+        <span class="border-bottom border-dark border-2">Sneakers</span><span class="badge bg-dark mx-3">Nuevo!</span>
+      </h2>
+      <div class="container my-3">
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/derrick-payton-0ZEz23Du8fA-unsplash.jpg" alt="Nike Air Force 1" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Force 1
+                </h5>
+                <p class="class-text">
+                  100€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/taylor-smith-aDZ5YIuedQg-unsplash.jpg" alt="Nike Air Max 97" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Max 97
+                </h5>
+                <p class="class-text">
+                  120€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/nathan-jongerius-dbiZRVk_RQk-unsplash.jpg" alt="Nike Air Force 1 Rainbow" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Force 1 Rainbow
+                </h5>
+                <p class="class-text">
+                  300€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/sneakers123-6haNgmwVNMc-unsplash.jpg" alt="Nike Air Max 270" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Max 270
+                </h5>
+                <p class="class-text">
+                  200€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/whereslugo-ad047kyPBh8-unsplash.jpg" alt="Nike Air Force 1 Classic, High" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Force 1 Classic, High
+                </h5>
+                <p class="class-text">
+                  400€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-2">
+            <div class="card">
+              <img class="card-img-top" src="images/fachry-zella-devandra-G_qgKCE9fE0-unsplash.jpg" alt="Nike Air Max High" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nike Air Max High
+                </h5>
+                <p class="class-text">
+                  110€
+                </p>
+                <button type="button" class="btn btn-primary bg-primary border-primary-dark button-primary"
+                  aria-label="Open toast">Añadir al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------ Toast (común para todas las zapatillas) ----->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="images/sneakers.png" class="rounded me-2 " alt="...">
+          <strong class="me-auto">Street Style</strong>
+          <small>Hace unos segundos</small>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Zapatilla añadida al carrito.
+        </div>
+      </div>
+    </div>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script>
+    const toast = document.querySelector("#liveToast");
+    const buttons = document.querySelectorAll("[aria-label='Open toast']");
+    buttons.forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        toast.classList.add("show");
+        setTimeout(() => {
+          toast.classList.remove("show");
+        }, 3000);
+      });
+    });
+  </script>
 </body>
 
 </html>
